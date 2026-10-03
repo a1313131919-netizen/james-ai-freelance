@@ -2,25 +2,55 @@
   "bounty_number": 130,
   "claim_id": "2ad83679-306a-4b3b-a4c8-aae938b01462",
   "summary": "A disclosed Reddit reply was posted to a live startup-cloud-credits discussion using dated Sourcey registry facts that directly answer the poster's questions about Google Cloud and AWS startup credits.",
+  "observations": [
+    {
+      "kind": "live_thread",
+      "url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/were_a_small_bootstrapped_saas_startup_proptech/",
+      "observation": "The thread is a live r/StartUpIndia discussion by a bootstrapped SaaS startup asking specifically about AWS Activate and Google for Startups Cloud credits."
+    },
+    {
+      "kind": "public_reply",
+      "url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/comment/pdnzvuz/",
+      "observation": "A substantive reply was successfully posted publicly and Reddit displayed 'Comment posted successfully'."
+    },
+    {
+      "kind": "dated_fact",
+      "url": "https://sourcey.com/c/google-cloud/programs/google-for-startups-cloud-program",
+      "observed_date": "2026-08-04",
+      "observation": "Sourcey's Google for Startups Cloud Program record lists the Start tier at up to $2,000 in credits for one year."
+    },
+    {
+      "kind": "dated_fact",
+      "url": "https://sourcey.com/c/google-cloud/programs/google-for-startups-cloud-program",
+      "observed_date": "2026-08-04",
+      "observation": "The same dated Google record lists Scale up to $100,000 in year one and an AI-first tier up to $250,000 in year one."
+    },
+    {
+      "kind": "dated_fact",
+      "url": "https://sourcey.com/c/aws/offers/aws-activate-portfolio-credits",
+      "observed_date": "2026-08-04",
+      "observation": "Sourcey's AWS Activate Portfolio record lists up to $200,000 in AWS credits for pre-Series B startups applying with an AWS Activate Provider Org ID."
+    },
+    {
+      "kind": "transparency",
+      "url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/comment/pdnzvuz/",
+      "observation": "The Reddit reply explicitly discloses that it was posted while participating in a small paid bounty."
+    }
+  ],
   "items": [
     {
       "type": "reddit_comment",
-      "url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/comment/pdnzvuz/",
-      "thread_url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/were_a_small_bootstrapped_saas_startup_proptech/",
-      "relevance": "The live thread explicitly asks about AWS Activate and Google for Startups Cloud credit amounts and eligibility for an unfunded startup.",
-      "disclosure": "The public comment states that it was posted while participating in a small paid bounty."
+      "url": "https://www.reddit.com/r/StartUpIndia/comments/1wuzim2/comment/pdnzvuz/"
     },
     {
       "type": "sourcey_record",
       "url": "https://sourcey.com/c/google-cloud/programs/google-for-startups-cloud-program",
-      "observed_date": "2026-08-04",
-      "fact": "The Google for Startups Cloud Program record lists Start up to $2,000 for one year, Scale up to $100,000 in year one, and an AI-first tier up to $250,000 in year one."
+      "observed_date": "2026-08-04"
     },
     {
       "type": "sourcey_record",
       "url": "https://sourcey.com/c/aws/offers/aws-activate-portfolio-credits",
-      "observed_date": "2026-08-04",
-      "fact": "The AWS Activate Portfolio record lists up to $200,000 in AWS credits for pre-Series B startups applying with an AWS Activate Provider Org ID, and records a Founders route aimed at self-funded pre-Series B startups."
+      "observed_date": "2026-08-04"
     }
   ]
 }
